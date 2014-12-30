@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Server IP address" >
+        <EditTextPreference
+            android:key="video_url"
+            android:summary="video full url (mp4)"
+            android:title="Video URL" 
+            android:value="test"
+            />
+        
+        <EditTextPreference
+            android:key="bitrate"
+            android:summary="video average bitrate (kbps)"
+            android:title="Video bitrate" />
+        
+        <EditTextPreference
+            android:key="video_length"
+            android:summary="video running time duration (sec)"
+            android:title="Video Length" />
+        
+        <EditTextPreference
+            android:key="video_size"
+            android:summary="video file size (byte)"
+            android:title="Video Size" />
+        
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
